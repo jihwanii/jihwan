@@ -7,6 +7,111 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="header">
+        <a href="buyer.html" target="blank">
+            <img src="img/B-BRO2.png" alt="로고">
+        </a>
+    </div>
+    <div class="nav">
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+        
+    </div>
+    <div class="title"  align="center">
+        <a href="buyer.html" target="blank">
+            <img src="img/B-BRO1.png" href ="head.html" alt="타이틀">
+        </a>
+    </div>
+    <div class="table">
+        <table border="3" bordercolor="black" width = "1220" height = "0" align="center">
+            <th>Date</th>
+            <th>Category</th>
+            <th>Image</th>
+            <th>Bravd</th>
+            <th>Item code</th>
+            <th>Item Name</th>
+            <th>Retail</th>
+            <th>Supply Price</th>
+            <th>In/Out Box</th>
+            <th>Qty Inbox</th>
+            <tr height = "40">
+                <td id="current_date" align="center">
+                    
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr height = "40">
+                <td id="current_date" align="center">
+                    
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr height = "40">
+                <td id="current_date" align="center">
+                    
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr height = "40">
+                <td id="current_date" align="center">
+                    
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    <div class="footer">
+        
+    </div>
+
+
+    <script>
+
+        var today = new Date();
+        nowYear = today.getFullYear();
+        nowMonth = today.getMonth();
+        nowDate = today.getDate();
+        document.getElementById("current_date").innerHTML = nowYear +"/"+ nowMonth +"/"+ nowDate;
+    </script>
 </body>
 </html>
